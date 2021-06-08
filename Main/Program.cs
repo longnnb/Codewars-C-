@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Solution;
+using Main.CodeWars;
 
 namespace Main
 {
@@ -9,14 +9,20 @@ namespace Main
         static void Main(string[] args)
         {
             // TO-DO: use xUnit to create test cases
-            Console.WriteLine("=== SOLUTION TEST ===");
+            //Console.WriteLine("=== SOLUTION TEST ===");
 
-            Console.WriteLine("== GetIntegersFromList ==");
-            var list = new List<object>() { 1, 2, "a", "b" };
-            Console.WriteLine(String.Join(' ', ListFilterer.GetIntegersFromList(list)));
+            //Console.WriteLine("== GetIntegersFromList ==");
+            //var list = new List<object>() { 1, 2, "a", "b" };
+            //Console.WriteLine(String.Join(' ', ListFilterer.GetIntegersFromList(list)));
 
-            Console.WriteLine("== ToJadenCase ==");
-            Console.WriteLine("How can mirrors be real if our eyes aren't real".ToJadenCase());
+            //Console.WriteLine("== ToJadenCase ==");
+            //Console.WriteLine("How can mirrors be real if our eyes aren't real".ToJadenCase());
+
+            //var result = Kata.Divisors(15);
+            //result = Kata.Divisors(16);
+            //result = Kata.Divisors(253);
+            //result = Kata.Divisors(24);
+
 
             Console.ReadLine();
         }

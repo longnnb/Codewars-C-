@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Solution
+namespace Main
 {
     public class ListFilterer
     {
         public static IEnumerable<int> GetIntegersFromList(List<object> listOfItems)
         {
-            //verbose
+            //my solution
             //var result = new List<int>();
             //foreach (var item in listOfItems)
             //{
