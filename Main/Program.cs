@@ -23,7 +23,11 @@ namespace Main
             //result = Kata.Divisors(253);
             //result = Kata.Divisors(24);
 
+            //var a = "xyaabbbccccdefww";
+            //var b = "xxxxyyyyabklmopq";
+            //Console.WriteLine(Kata.Longest(a, b));
 
+            Console.WriteLine(Kata.FindMissingLetter(new char[] { 'e', 'f', 'h' }));
             Console.ReadLine();
         }
     }
